@@ -50,13 +50,11 @@ A[4] = 3
 the function should return 1, as explained above.
 
 Assume that:
+* N is an integer within the range [2..100,000];
+* each element of array A is an integer within the range [−1,000..1,000].
 
-N is an integer within the range [2..100,000];
-each element of array A is an integer within the range [−1,000..1,000].
 Complexity:
-```
-expected worst-case time complexity is O(N);
-expected worst-case space complexity is O(N), beyond input storage (not counting
-the storage required for input arguments).
-Elements of input arrays can be modified.
-```
+* expected worst-case time complexity is O(N);
+* expected worst-case space complexity is O(N), beyond input storage (not
+  counting the storage required for input arguments).
+* Elements of input arrays can be modified.
